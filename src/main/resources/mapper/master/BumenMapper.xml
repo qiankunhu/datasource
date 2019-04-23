@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hqk.datasource.mapper.master.BumenMapper">
+
+
+
+
+	<insert id="addBumen">
+
+		 INSERT into sgm_activity_banner (sab_name,sab_effective_time) VALUES ('主库员工添加成功',NOW());
+	</insert>
+
+
+
+</mapper>
